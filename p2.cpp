@@ -68,7 +68,92 @@ int main()
   //   cout<<endl;
   // }
 
-  
+  // for(int i=number;i>=0;i--)
+  // {
+  //   for(int j=i;j>=0;j--)
+  //   {
+  //     cout<<i;
+  //   }
+  //   cout<<endl;
+  // }
+
+  // for(int i=0;i<number;i++)
+  // {
+  //   for(int j=0;j<i;j++)
+  //   {
+  //     cout<<" ";
+  //   }
+  //   for(int k=0;k<number-i;k++)
+  //   {
+  //     cout<<(i+1);
+  //   }
+  //   cout<<endl;
+  // }
+
+  // for(int i=0;i<number;i++)
+  // {
+  //   for(int j=0; j<number-i-1;j++)
+  //   {
+  //     cout<<" ";
+  //   }
+  //     for (int k = 1; k <= i+1; k++)
+  //     {
+  //       cout<<k;
+  //     }
+
+  //     for (int m = i; m > 0; m--)
+  //     {
+  //       cout<<m;
+  //     }
+      
+    
+  //   cout<<endl;
+
+  // upper left corner
+
+//   for (int i = 0; i <= number; i++) {
+//         // Left stars
+//         for (int j = 0; j <= i; j++) {
+//             cout << "*";
+//         }
+
+//         // Spaces
+//         for (int k = 0; k < 2 * (number - i); k++) {
+//             cout << " ";
+//         }
+
+//         // Right stars
+//         for (int j = 0; j <= i; j++) {
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+
+//     // Lower part of the butterfly
+//     for (int i = 0; i <= number; i++) {
+//         // Left stars
+//         for (int j = number - i; j >= 0; j--) {
+//             cout << "*";
+//         }
+
+//         // Spaces
+//         for (int k = 0; k < 2 * i; k++) {
+//             cout << " ";
+//         }
+
+//         // Right stars
+//         for (int j = number - i; j >= 0; j--) {
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+
+//     return 0;
 }
+
+
+
+  
+
 
 
