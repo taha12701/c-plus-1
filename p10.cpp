@@ -22,7 +22,7 @@ int main()
 
  for(int i=1;i<=number;i++)
  {
-  cout<<dectoBinary(i)<<endl;
+  cout<<"Binary number of " <<i<< " is : " <<dectoBinary(i)<<endl;
  }
  
 
