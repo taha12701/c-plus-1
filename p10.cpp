@@ -17,7 +17,13 @@ int dectoBinary(int number)
 }
 int main()
 {
- int number = 50;
- cout<<dectoBinary(number);
+ int number = 10;
+ 
+
+ for(int i=1;i<=number;i++)
+ {
+  cout<<dectoBinary(i)<<endl;
+ }
+ 
 
 }
