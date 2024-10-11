@@ -29,4 +29,10 @@ int main()
   cout<<sizeof(long int)<<endl;
   cout<<sizeof(short int)<<endl;
 
+
+  unsigned int x=-10;
+  signed int y=-10;
+  cout<<x<<endl;
+  cout<<y;
+
 }
